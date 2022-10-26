@@ -1,0 +1,58 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    max-width: 90%;
+    min-width: 500px;
+    border: 1px solid black;
+    font-family: Rubik;
+}
+
+.last-five {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #E2DEE0;
+    margin: 0.1rem 0.1rem 0 0;
+}
+
+.last-five__win {
+    background: #16C456;
+}
+
+.last-five__loss {
+    background: #ED1D24;
+}
+
+.col-last-five {
+    display: flex;
+}
+
+.table-head-row {
+    text-align: left;
+    background: #d1d1d196;
+}
+
+#row1 {
+    background: #16c456aa;
+}
+
+#row2, #row3 {
+    background: #005eff6b;
+}
+#row14 {
+    background: #ffdd0094;
+}
+
+#row15, #row16 {
+    background: #ff3a008c;
+}
